@@ -1,0 +1,73 @@
+:root {
+	--green: #21bf73;
+	--blue: #3498db;
+	--lightgray: #f0f5f9;
+	--dark: #3a3a47;
+	--gray: #8a8a8a;
+}
+body {
+	font-family: "Montserrat", "Open Sans", sans-serif;
+	color: var(--dark);
+}
+.bg-light {
+	background-color: var(--lightgray) !important;
+}
+p {
+	font-weight: 600;
+}
+p.text-muted {
+	font-weight: 400;
+}
+h1 {
+	font-weight: 800;
+	font-size: 38px;
+}
+.btn {
+	padding: 10px 32px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 14px;
+	border: 2px solid;
+	letter-spacing: 1px;
+}
+.btn-outline-primary {
+	border-color: var(--blue);
+	color: var(--blue);
+}
+.btn-outline-primary:hover, :not(.btn-check) + .btn-outline-primary:active {
+	background: var(--blue);
+	border-color: var(--blue);
+}
+
+.btn-success, .btn-success:hover, :not(.btn-check) + .btn-success:active {
+	border-color: var(--green);
+	background-color: var(--green);
+}
+.small-text {
+	font-size: 14px;
+}
+
+/* Navbar */
+.navbar-brand {
+	font-weight: 600;
+	font-size: 18px;
+	color: var(--dark);
+}
+.navbar-brand:hover {
+	color: var(--dark);
+}
+.nav-link {
+	font-size: 13px;
+	font-weight: 600;
+}
+.btn-outline-success {
+	border-color:  var(--gray);
+	color: var(--dark);
+	font-size: 12px;
+}
+.btn-outline-success:hover {
+	background: var(--green);
+	border-color: var(--green);
+}
+
+/* Home */
